@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="552.0" prefWidth="498.0" style="-fx-background-color: #1a1a1a;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.historyController">
+   <children>
+      <ListView fx:id="listView" layoutX="11.0" prefHeight="456.0" prefWidth="476.0" style="-fx-background-color: #1a1a1a;" />
+      <Button layoutX="138.0" layoutY="491.0" mnemonicParsing="false" onAction="#goBackToCalculator" prefHeight="61.0" prefWidth="200.0" style="-fx-background-color: #019cff;" text="Go back to calculator" textFill="WHITE">
+         <font>
+            <Font name="Consolas" size="15.0" />
+         </font></Button>
+   </children>
+</Pane>
